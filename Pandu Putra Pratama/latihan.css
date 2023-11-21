@@ -1,0 +1,106 @@
+/* selector adalah target html yang mau di styling */
+/* id pake #,class pake .,tag html div h1 */
+ul {
+   display: flex;
+}
+
+li {
+    list-style: none;
+    padding-right: 40px;
+    padding-top: 16px;
+}
+
+header {
+    display: flex;
+    background-color: brown;
+    color: white;
+}
+
+nav {
+    margin-left: 100px;    
+}
+
+.logo {
+    margin-left: 100px;
+    font-style: italic;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+.box {
+    display: flex;
+}
+
+.box4 {
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+    
+}
+
+.box5 {
+    width: 400px;
+    height: 400px;
+    background-color: darkorange;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.box6 {
+    width: 400px;
+    height: 400px;
+    background-color: orangered;
+    
+}
+
+.box {
+    display: flex;
+}
+
+.boxer {
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+.boxer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+    border: 1px solid black;
+}
+
+.boxer p {
+    text-align: center;
+}
+
+.boxer button {
+    background-color: green;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-left: 45px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+p button {
+    margin-bottom: 20px;
+}
